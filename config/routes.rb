@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :stages
+  resources :progress_reports
   resources :dorms
   resources :activities
   resources :users
